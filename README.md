@@ -53,6 +53,8 @@ We have made significant progress since the start of the project. We have collec
 
 We are looking forward to share our final approach, the validation results and methods in the near future. Stay tuned!
 
+Meanwhile, you can find a few impressions below.
+
 
 
 **Figure 1**. Example of stride segmentation for walking data.
@@ -65,3 +67,8 @@ We are looking forward to share our final approach, the validation results and m
 
 ![Validation_EEStride](https://github.com/claaslendt/thighE3/blob/main/figures/Validation_EEStride.png)
 
+
+
+**Figure 3**. Confusion matrix for the activity classification model for the validation set.
+
+![confmat_classifier](https://github.com/claaslendt/thighE3/blob/main/figures/confmat_classifier.png)

@@ -34,12 +34,9 @@ We have made significant progress since the start of the project. We have collec
 
 - [x] **Data collection** at GSU Cologne.
 - [x] **Cleaning and pre-processing** of the collected data.
-- [x] **Training of a CNN-LSTM activity classification model** using a pooled dataset.
-- [x] **Development and validation of the activity-specific stride segmentation approach**
-  - [x] Walking
-  - [x] Running
-  - [x] Cycling
-
+- [x] **Training of a CNN-LSTM activity classification model** using a pooled dataset of laboratory and free-living data (n = 69) with  more than 100.000 data points across a range of different physical activities.
+- [x] **Development and validation of the activity-specific stride segmentation approach** for walking, running and cycling.
+  
 - [x] **Development of several EE estimation approaches**
   - [x] generic approaches (using ENMO and MAD)
   - [x] activity-specific approaches

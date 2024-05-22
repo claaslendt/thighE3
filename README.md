@@ -16,7 +16,7 @@ Accurate assessment of activity-induced energy expenditure (AEE) is required to 
 
 To support efficient and robust training of the machine learning model, a diverse population sample will be recruited. All sample participants will undergo a standardised activity protocol in the laboratory while AEE will be measured using indirect calorimetry. The raw triaxial acceleration of the thigh will be measured and used for subsequent modelling. Activity classification and stride segmentation will be performed on the raw acceleration data using existing algorithmic approaches and subsequently used as model inputs. Model performance will be evaluated against indirect calorimetry and previous regression models.
 
-In collaboration with the AUT Human Potential Centre, we will implement existing and validated activity classification algorithms. In addition, we plan to merge prospective, co-existing datasets to enhance our ability to train and test the modelling approach. Based on previous research using activity classification and stride segmentation, we expect the novel modelling approach to perform with greater accuracy compared to existing thigh-based estimation models as well as other wearable systems (such as a commercial smartwatch).
+In collaboration with the AUT Human Potential Centre, we will implement existing and validated activity classification algorithms. In addition, we plan to merge additional available datasets to enhance our ability to train and test the modelling approach. Based on previous research using activity classification and stride segmentation, we expect the novel modelling approach to perform with greater accuracy compared to existing thigh-based estimation models as well as other wearable systems (such as a commercial smartwatch).
 
 
 
@@ -42,30 +42,29 @@ We have made significant progress since the start of the project. We have collec
   - [x] activity-specific approaches
   - [x] stride-specific approaches
   - [x] activity- AND stride-specific approaches
-- [ ] **Final analysis and validation using the hold-out test set**
+- [x] **Final analysis and validation using the hold-out test set**
+- [ ] Publishing our results [pre-print is coming soon!]
 
 
 
 ## Impressions
 
-We are looking forward to share our final approach, the validation results and methods in the near future. Stay tuned!
-
-Meanwhile, you can find a few impressions below.
+We are looking forward to share our final approach, the validation results and methods in the near future. Stay tuned! Meanwhile, you can find a few impressions below.
 
 
 
-**Figure 1**. Example of stride segmentation for walking data.
+**Figure 1**. Confusion matrix for the activity classification model for the validation set.
+
+![confmat_classifier](https://github.com/claaslendt/thighE3/blob/main/figures/confmat_classifier.png)
+
+
+
+**Figure 2**. Example of stride segmentation for walking data.
 
 ![StrideSegmentationWalking](https://github.com/claaslendt/thighE3/blob/main/figures/StrideSegmentationWalking.png)
 
 
 
-**Figure 2**. Preliminary results for the validation data using an activity- and stride-specific LSTM approach.
+**Figure 3**. Preliminary results for the validation data using an activity- and stride-specific LSTM approach.
 
 ![Validation_EEStride](https://github.com/claaslendt/thighE3/blob/main/figures/Validation_EEStride.png)
-
-
-
-**Figure 3**. Confusion matrix for the activity classification model for the validation set.
-
-![confmat_classifier](https://github.com/claaslendt/thighE3/blob/main/figures/confmat_classifier.png)
